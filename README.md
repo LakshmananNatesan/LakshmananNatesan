@@ -1,9 +1,9 @@
-<h1 align="center">Vijaya Lakshmi Vobbilisetti</h1>
+<h1 align="center">Lakshmanan Natesan</h1>
 
 <p align="center">
-  <a href="mailto:vobbilisetti.v@northeastern.edu">Email</a> |
-  <a href="https://www.linkedin.com/in/your-link">LinkedIn</a> |
-  <a href="https://github.com/your-username">GitHub</a>
+  <a href="mailto:lakshmanannatesan16@gmail.com">Email</a> |
+  <a href="www.linkedin.com/in/lakshmanannatesan16">LinkedIn</a> |
+  <a href="https://github.com/your-LakshmananNatesan">GitHub</a>
 </p>
 
 ---
