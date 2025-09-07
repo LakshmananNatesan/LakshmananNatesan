@@ -93,3 +93,16 @@ Graduate student (MS, Business Analytics – Big Data) with a 4.00 GPA at UMass 
 <p align="center">
   <sub>© Lakshmanan Natesan • Last updated: YYYY-MM-DD</sub>
 </p>
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="28" alt="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="28" alt="AWS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" height="28" alt="Airflow"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" height="28" alt="Spark"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/snowflake/snowflake-original.svg" height="28" alt="Snowflake"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" height="28" alt="Tableau"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dbt/dbt-original.svg" height="28" alt="dbt"/>
+  <!-- SQL doesn't have a single brand; use Postgres as a stand-in or leave the Shields badge -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="28" alt="SQL/PostgreSQL"/>
+</p>
+
