@@ -1,113 +1,95 @@
-<!-- HERO -->
 <div align="center">
-  <img src="assets/about.jpg" alt="banner" width="100%" />
-  <br><br>
-  <img src="assets/avatar.jpg" alt="headshot" width="110" style="border-radius:50%; border:2px solid #22d3ee;" />
-  <h1>Hi, I'm <span style="color:#22d3ee">Your Name</span></h1>
-  <p><b>Data Analytics • Data Engineering • BI</b></p>
-  <p>
-    <a href="mailto:you@email.com">Email</a> ·
-    <a href="https://www.linkedin.com/in/your-linkedin/">LinkedIn</a> ·
-    <a href="https://github.com/yourusername">GitHub</a> ·
-    <a href="assets/Resume.pdf">Resume</a>
-  </p>
+
+# Lakshmanan Natesan
+
+**Data Analytics • Data Engineering • BI**
+
+[Email](mailto:lakshmanannatesan16@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/lakshmanannatesan16) ·
+[GitHub](https://github.com/LakshmananNatesan) ·
+[Resume](assets/Resume.pdf)
+
+_Boston, MA 02125_
+
 </div>
 
 ---
 
-<!-- QUICK TAGS -->
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB" />
   <img src="https://img.shields.io/badge/SQL-2F4858" />
-  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE" />
+  <img src="https://img.shields.io/badge/R-276DC3" />
+  <img src="https://img.shields.io/badge/Airflow-017CEE" />
   <img src="https://img.shields.io/badge/Spark-000000" />
   <img src="https://img.shields.io/badge/AWS-232F3E" />
   <img src="https://img.shields.io/badge/Tableau-1F5CAB" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811" />
 </p>
 
 ## 🔎 Summary
-Graduate student in Business/Data Analytics with strong skills in **SQL, Python, Tableau/Power BI**, and foundations in **data engineering** (Airflow, Spark, AWS). I love turning messy data into clear insights and reliable pipelines. Open to internships and full-time roles.
+Graduate student (MS, Business Analytics – Big Data) with a 4.00 GPA at UMass Boston. Skilled in **Python, R, SQL**, and visualization with **Tableau/Matplotlib**. Hands-on with **data engineering** concepts (Airflow, Spark, Git, Linux) and **AWS** (S3, Glue/Athena basics). Comfortable with ML workflows (scikit-learn/TensorFlow), feature engineering, and hypothesis testing. Interested in roles where I can build reliable data pipelines and clear, decision-driving dashboards.
 
 ---
 
 ## 🧰 Skills
-- **Programming:** Python (pandas, numpy), SQL (window functions, CTEs), R (optional)
-- **Data Engineering:** Apache Airflow, Spark (PySpark), dbt (optional), APIs
-- **Cloud:** AWS (S3, Lambda, Glue, Athena), GitHub Actions
-- **BI/Vis:** Tableau, Power BI, matplotlib/plotly
-- **Other:** Statistics, A/B testing, stakeholder reporting
+- **Programming & Data:** Python (pandas, numpy), R, SQL
+- **ML & Statistics:** scikit-learn, TensorFlow, regression, hypothesis testing, feature engineering
+- **Data Engineering:** Apache Airflow, Apache Spark (PySpark), APIs, Git/GitHub, Linux shell
+- **Cloud & Storage:** AWS (S3, Redshift/RDS basics, Glue/Athena), Databricks DBFS, Hive
+- **Databases:** PostgreSQL, MySQL; modeling (ER diagrams, normalization), joins & subqueries
+- **Visualization:** Tableau, Matplotlib, Seaborn
+- **Other:** Version control, CI/CD fundamentals (GitHub Actions)
 
 ---
 
 ## 🚀 Projects
-<table>
-  <tr>
-    <td width="33%">
-      <a href="https://github.com/yourusername/stock-price-tracker">
-        <img src="assets/p1.jpg" alt="Stock Price Tracker" width="100%"/>
-      </a>
-      <h4>Airflow Stock Price Tracker</h4>
-      <p>Scheduled DAG pulls Yahoo Finance → stores to S3/CSV → sends threshold alerts.</p>
-      <p>
-        <a href="https://github.com/yourusername/stock-price-tracker">Code</a> ·
-        <a href="#">Live</a>
-      </p>
-    </td>
-    <td width="33%">
-      <a href="https://github.com/yourusername/digital-equity-dashboard">
-        <img src="assets/p2.jpg" alt="Digital Equity Dashboard" width="100%"/>
-      </a>
-      <h4>Digital Equity Dashboard (TGH)</h4>
-      <p>Cleaned surveys, standardized categories, built Tableau dashboards for demographics/outcomes.</p>
-      <p>
-        <a href="https://github.com/yourusername/digital-equity-dashboard">Code</a> ·
-        <a href="#">Live</a>
-      </p>
-    </td>
-    <td width="33%">
-      <a href="https://github.com/yourusername/truckbase-ops">
-        <img src="assets/p3.jpg" alt="TruckBase Ops" width="100%"/>
-      </a>
-      <h4>TruckBase Ops Optimization</h4>
-      <p>ETL + metrics (on-time rate, revenue/mi, detention). Email alerts + weekly PDF reports.</p>
-      <p>
-        <a href="https://github.com/yourusername/truckbase-ops">Code</a> ·
-        <a href="#">Live</a>
-      </p>
-    </td>
-  </tr>
-</table>
 
-> Tip: replace the links and images with your real repos/screenshots.
+### ETL / ELT Data Pipeline – Netflix (Snowflake, dbt, AWS S3, Tableau)
+- Ingested CSVs to **S3** → **Snowflake raw**; modeled **staging/serving** with **dbt** (tests & documentation).  
+- Built interactive dashboards in **Tableau/Looker Studio** for content & trend insights.
+- **Tech:** Snowflake, dbt, AWS S3, SQL, Tableau/Looker.
+
+### Automated Stock Price Pipeline – Yahoo Finance API
+- **Airflow DAG** to extract daily prices, validate API availability, and orchestrate tasks.  
+- Landed data in **MinIO**, transformed with **Spark**, saved clean CSVs.  
+- Loaded to **PostgreSQL** DW; **Metabase** for charts; **Slack** alert on completion.  
+- **Tech:** Airflow, Spark, MinIO, PostgreSQL, Metabase, Slack API, Python.
+
+### Nashville Housing Price Prediction
+- Cleaned and engineered features; trained **Linear Regression**, **Random Forest**, **KMeans**, and a **Neural Network**.  
+- Best model **R² ≈ 0.87** with tuned NN; **Tableau** visuals of key drivers (lot size, condition, ZIP).  
+- **Tech:** Python (pandas, scikit-learn), Tableau.
+
+> Tip: Pin these repos on your profile (Customize profile → “Pinned repositories”) and link them above when public.
 
 ---
 
 ## 💼 Experience
-**Data Analyst Intern — Company**  
-*May 2025 – Present · City, State*  
-- Built Python + SQL pipelines and dashboards; automated weekly reporting (saved ~6 hrs/week).  
-- Partnered with stakeholders to define KPIs; reduced manual data prep by 40%.
 
-**Audit Analyst — Deloitte**  
-*2021 – 2022 · India*  
-- Analyzed financial datasets; streamlined reconciliations and controls across teams.
+**Data Analytics Intern — Tech Goes Home (Boston, MA)** · *06/2025 – Present*  
+- Built a **Scheduled Flow** in Salesforce to fire expiry alerts for contracts; notifications at **30/15/7/1 days**.  
+- Deployed via **Change Sets** after debugging logs; automated renewals tracking for **$400K+** in contracts.  
+- Cleaned wide survey data (250+ cols) and delivered **Tableau dashboards** for demographics & connectivity.
+
+**Research Assistant — University of Massachusetts Boston** · *04/2025 – Present*  
+- Applied **Transformer-based LLMs** (zero-shot & sentiment models) to **YouTube/Reddit/TikTok** comments.  
+- Investigated platform-specific sentiment patterns; explained differences in polarity across platforms.
 
 ---
 
 ## 🎓 Education
-**University Name** — *MS in Business Analytics — Big Data (Expected: 2026)*  
-Coursework: Statistical Modeling, Data Engineering, Cloud, Visualization, A/B Testing
+**University of Massachusetts Boston — MS, Business Analytics (Big Data)** · *GPA: 4.00/4.00* · *06/2025*  
+**Coimbatore Institute of Technology — BE, Electronics & Communication** · *GPA: 3.76/4.00* · *09/2020–05/2024*
 
 ---
 
 ## 📫 Contact
-- Email: **you@email.com**  
-- LinkedIn: **https://www.linkedin.com/in/your-linkedin/**  
-- GitHub: **https://github.com/yourusername**
+- **Email:** lakshmanannatesan16@gmail.com  
+- **LinkedIn:** https://www.linkedin.com/in/lakshmanannatesan16  
+- **GitHub:** https://github.com/LakshmananNatesan
 
 ---
 
 <p align="center">
-  <sub>© Your Name • Last updated: {{ replace_with_date }}</sub>
+  <sub>© Lakshmanan Natesan • Last updated: YYYY-MM-DD</sub>
 </p>
