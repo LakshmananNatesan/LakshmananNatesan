@@ -52,22 +52,32 @@ Graduate student (MS, Business Analytics – Big Data) with a 4.00 GPA at UMass 
 ---
 
 ## Projects
+## Projects
 
-### ETL / ELT Data Pipeline – Netflix (Snowflake, dbt, AWS S3, Tableau)
-- Ingested CSVs to **S3** → **Snowflake (raw)**; modeled **staging/serving** with **dbt** (tests & docs).  
-- Built interactive dashboards in **Tableau / Looker Studio** for content & trend insights.  
-- **Tech:** Snowflake, dbt, AWS S3, SQL, Tableau/Looker.
+### ETL Data Pipeline – Netflix Dataset (Snowflake, dbt, AWS S3, Tableau)
+- Designed and implemented an end-to-end ELT pipeline to process Netflix CSV data, storing it in Amazon S3 and loading into Snowflake’s raw layer.
+- Developed staging and serving layers in Snowflake using dbt for data transformation, testing, and orchestration, ensuring data accuracy and consistency.
+- Integrated BI tools (Power BI, Tableau, Looker Studio) for interactive dashboards and analytical reporting, enabling data-driven insights.
+**Tech Stack:** Snowflake, AWS S3, dbt, Tableau, Looker Studio, SQL
 
-### Automated Stock Price Pipeline – Yahoo Finance API
-- **Airflow DAG** extracts daily prices, validates API availability, and orchestrates tasks.  
-- Landed data in **MinIO**, transformed with **Spark**, saved clean CSVs.  
-- Loaded to **PostgreSQL** DW; **Metabase** for charts; **Slack** alert on completion.  
-- **Tech:** Airflow, Spark, MinIO, PostgreSQL, Metabase, Slack API, Python.
+---
 
-### Nashville Housing Price Prediction
-- Cleaned and engineered features; trained **Linear Regression**, **Random Forest**, **KMeans**, and a **Neural Network**.  
-- Best model **R² ≈ 0.87** (tuned NN); **Tableau** visuals of key drivers (lot size, condition, ZIP).  
-- **Tech:** Python (pandas, scikit-learn), Tableau.
+### Automated Stock Price Data Pipeline – Yahoo Finance API (Airflow, Spark, MinIO, PostgreSQL, Metabase)
+- Developed and orchestrated an Apache Airflow DAG to extract real-time stock prices from the Yahoo Finance API, validate API availability, and automate daily ingestion.
+- Stored raw data in MinIO, processed and formatted datasets using Apache Spark for analytics readiness, and generated CSV outputs for downstream use.
+- Loaded transformed data into PostgreSQL Data Warehouse and connected Metabase for interactive visualization and trend monitoring, with automated Slack notifications on job completion.
+**Tech Stack:** Apache Airflow, Apache Spark, MinIO, PostgreSQL, Metabase, Slack API, Python
+
+---
+
+### Nashville Housing Price Prediction | Python, Pandas, Scikit-learn, Tableau, Neural Networks
+- Performed comprehensive data cleaning, preprocessing, and feature engineering on the Nashville Housing dataset to enhance model performance.
+- Implemented multiple ML models including Linear Regression (with log transformation), Random Forest, KMeans Clustering, and a Neural Network for house price prediction.
+- Achieved an R² score of 0.87 using the neural network model with hyperparameter tuning.
+- Built a Tableau dashboard to visualize housing prices by location, condition, and construction year, highlighting price disparities across ZIP codes.
+- Delivered actionable insights on key pricing drivers such as lot size, and house condition for real estate.
+
+
 
 ---
 
