@@ -16,13 +16,6 @@
   <img src="https://raw.githubusercontent.com/LakshmananNatesan/SQL-Projects/main/airflow.png" alt="Apache Airflow" height="36">
   <img src="https://raw.githubusercontent.com/LakshmananNatesan/SQL-Projects/main/spark.png" alt="Apache Spark" height="36">
 
-  <!-- dbt: use ONE of the lines below -->
-  <!-- 1) Devicon (preferred) -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dbt/dbt-original.svg" alt="dbt" height="36">
-  <!-- 2) If Devicon is blocked, self-host: upload dbt.png to your repo and use: -->
-  <!-- <img src="https://raw.githubusercontent.com/LakshmananNatesan/SQL-Projects/main/dbt.png" alt="dbt" height="36"> -->
-  <!-- 3) Last-resort badge (visual style is different from icons) -->
-  <!-- <img src="https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white&style=flat" alt="dbt" height="28"> -->
 
   <img src="https://raw.githubusercontent.com/LakshmananNatesan/SQL-Projects/main/snowflake.png" alt="Snowflake" height="36">
 </p>
